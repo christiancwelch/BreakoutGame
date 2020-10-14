@@ -3,27 +3,10 @@ game
 
 This project implements the game of Breakout.
 
-Name: 
+Authors:  
 
 Alex Chao
 Christian Welch 
-
-### Timeline
-
-Start Date: 9/12/2020
-
-Finish Date: 
-
-Hours Spent: 45 hours (Alex) 40 hours (Christian)
-
-
-### Resources Used
-
-removing items from list while iterating
-https://www.java67.com/2018/12/how-to-remove-objects-or-elements-while-iterating-Arraylist-java.html
-
-getting random numbers
-https://stackoverflow.com/questions/27976857/how-do-i-get-a-random-number-with-a-negative-number-in-range
 
 
 ### Running the Program
@@ -31,7 +14,6 @@ https://stackoverflow.com/questions/27976857/how-do-i-get-a-random-number-with-a
 Main class: Game 
 
 Data files needed:  
-level0.txt to test the common logic in the game
 level1.txt, level2.txt, level3.txt to run the game 
 
 Key/Mouse inputs:
@@ -52,13 +34,6 @@ DOWN: decrease ball speed
 1-3: change to this level
 
 Known Bugs:
-
-On level 3, the ball is supposed to rebound off the bottom if it started on the lower half of the screen, and cause a life loss and reset if it
-goes through the top. Likewise, if the ball begins in the top half of the screen (above the paddle)
-it is supposed to rebound off the top, and cause a life loss and reset
-when passing through the bottom. However, both balls rebound off the top and disappear through
-the bottom without causing a life loss, only a reset. 
-
 
 Implementation of High Score Tracking was attempted, but a bug occurs where the myDisplay.getScore method always
 returns 0, and thus does not update the high score. 
@@ -112,5 +87,5 @@ Durable blocks are shaded dark purple specifically while basic blocks are random
 Cheat keys that enhance gameplay should not work when the ball isn't launched or the game is paused 
 
 Ball gets faster every time it hits a paddle to keep the game engaging 
-### Impressions
+
 
