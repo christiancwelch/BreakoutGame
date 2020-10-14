@@ -22,7 +22,7 @@ public class Game extends Application {
   public static final int TOP_OF_STAGE = 0;
 
   private final Group root = new Group();
-  private final GameLogic gameLogic = new GameLogic(0, root);
+  private final GameLogic gameLogic = new GameLogic(1, root);
 
   /**
    * Start the program.
